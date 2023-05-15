@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,900;1,700&display=swap');
+
+
+
+body{
+    background-color: #54c3ef;
+    padding-top: 24px;
+    padding-bottom: 37.08px;
+    padding-left: 24px;
+}
+
+#main-heading{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 90px;
+    text-shadow: 2px 5px #2b3252;
+    text-align: center;
+    margin: 0px;
+    color: #fad744;
+}
+
+#quiz-section{
+    background-color: #2b3252;
+    width: 55%;
+    margin-top: 36px;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+#quiz-form{
+    color: #fad744;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.label-div{
+    margin-top: 10px;
+    
+}
+
+.radio-btn{
+    margin-right: 10px;
+}
+
+.seprator{
+    border-bottom: 1px solid #fad744;
+    margin-top: 30px;
+}
+
+#marks-section{
+    width: 10%;
+    height: 170px;
+    background-color: #fff;
+    color: #000;
+    margin-top: 36px;
+    margin-left: 10px;
+    border-radius: 5px ;
+    padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: sticky;
+    top: 5px;
+}
+
+#section-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+#submit-btn{
+    background-color: #fad744;
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#btn-div{
+    text-align: center;
+}
+
+#marks-got{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fa-check{
+    color: #08A66C;
+    padding-left: 10px;
+    
+}
+.fa-times{
+    color: red;
+    padding-left: 10px;
+}
